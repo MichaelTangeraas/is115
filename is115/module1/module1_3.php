@@ -33,11 +33,11 @@
         </tr>
         <tr>
             <td>$age</td>
-            <td><?php echo $age ?></td>
+            <td><?php echo $age; ?></td>
         </tr>
         <tr>
             <td>$name</td>
-            <td><?php echo $name ?></td>
+            <td><?php echo $name; ?></td>
         </tr>
     </table>
 
@@ -47,8 +47,8 @@
 
     <h3>Displaying variables in a Numbered List</h3>
     <ol>
-        <li>Variable $age is defined as an integer with the value <?php echo $age ?>.</li>
-        <li>Variable $name is defined as a string with the value <?php echo $name ?>.</li>
+        <li>Variable $age is defined as an integer with the value <?php echo $age; ?>.</li>
+        <li>Variable $name is defined as a string with the value <?php echo $name; ?>.</li>
     </ol>
 
     <hr />
@@ -57,8 +57,8 @@
 
     <h3>Displaying variables in an Unordered List</h3>
     <ul>
-        <li>Variable $age is defined as an integer with the value <?php echo $age ?>.</li>
-        <li>Variable $name is defined as a string with the value <?php echo $name ?>.</li>
+        <li>Variable $age is defined as an integer with the value <?php echo $age; ?>.</li>
+        <li>Variable $name is defined as a string with the value <?php echo $name; ?>.</li>
     </ul>
 
     <hr />
@@ -74,7 +74,7 @@
     <!-- Dashboard Navigation -->
 
     <p><a href="/is115/module1/">Click here to go back to Module 1 dashboard</a></p>
-    <p><a href="/is115/">Click here to go back to Course dashboard</a></p>
+    <p><a href="/">Click here to go back to Course dashboard</a></p>
 
 
 </body>

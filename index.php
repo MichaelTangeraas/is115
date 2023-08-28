@@ -16,8 +16,12 @@
     <p>Below you will find a list of all the deliverables for this course</p>
 
     <h3>Module 1</h3>
-    <p><a href="/is115/module1/">Click here to go to modul 1</a></p>
+    <p><a href="/is115/module1/">Click here to go to module 1</a></p>
     <!-- <button onclick="window.location.href='/phpinfo.php'">Go to Phpinfo</button> -->
+
+    <p></p>
+
+
 
 </body>
 
