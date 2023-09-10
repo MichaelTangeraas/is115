@@ -17,9 +17,10 @@
 
     <h3>Module 1</h3>
     <p><a href="/is115/module1/">Click here to go to module 1</a></p>
-    <!-- <button onclick="window.location.href='/phpinfo.php'">Go to Phpinfo</button> -->
 
-    <p></p>
+    <h3>Module 2</h3>
+    <p><a href="/is115/module2/">Click here to go to module 1</a></p>
+
 
 
 
