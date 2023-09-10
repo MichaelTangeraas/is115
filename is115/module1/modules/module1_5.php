@@ -10,7 +10,7 @@
     <?php
 
     $name = "Ivar Michael Tangeraas";
-    $greeting = "I hope you have a nice week!";
+    $greeting = "I hope you have a nice week.";
 
     ?>
 </script>
@@ -26,14 +26,13 @@
 
     <h3>Displaying the greeting</h3>
 
-    <p>Good morning, <?php echo $name . "! " . $greeting; ?></p>
+    <p><?php echo "Good morning, " . $name . "! " . $greeting; ?></p>
 
     <hr />
 
     <!-- Dashboard Navigation -->
 
-    <p><a href="/is115/module1/">Click here to go back to Module 1 dashboard</a></p>
-    <p><a href="/">Click here to go back to Course dashboard</a></p>
+    <p><a href="../">Click here to go back to Module 1 dashboard</a></p>
 
 </body>
 

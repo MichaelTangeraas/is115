@@ -73,8 +73,7 @@
 
     <!-- Dashboard Navigation -->
 
-    <p><a href="/is115/module1/">Click here to go back to Module 1 dashboard</a></p>
-    <p><a href="/">Click here to go back to Course dashboard</a></p>
+    <p><a href="../">Click here to go back to Module 1 dashboard</a></p>
 
 
 </body>

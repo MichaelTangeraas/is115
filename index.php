@@ -19,7 +19,7 @@
     <p><a href="/is115/module1/">Click here to go to module 1</a></p>
 
     <h3>Module 2</h3>
-    <p><a href="/is115/module2/">Click here to go to module 1</a></p>
+    <p><a href="/is115/module2/">Click here to go to module 2</a></p>
 
 
 

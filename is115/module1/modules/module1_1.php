@@ -16,12 +16,11 @@
 
     <hr />
 
-    <img width="1350px" src="/is115/public/img/module1_1.png" alt="screenshot from discord">
+    <img width="1350px" src="../public/img/module1_1.png" alt="screenshot from discord">
 
     <hr />
 
-    <p><a href="/is115/module1/">Click here to go back to Module 1 dashboard</a></p>
-    <p><a href="/">Click here to go back to Course dashboard</a></p>
+    <p><a href="../">Click here to go back to Module 1 dashboard</a></p>
 
 </body>
 
