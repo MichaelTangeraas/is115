@@ -24,10 +24,12 @@
         <?php
         function generatePassword()
         {
+            # Define a string of all possible characters, and shuffle it.
             $comb = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
             $shfl = str_shuffle($comb);
-            $pwd = substr($shfl, 0, 8);
+            $pwd = substr($shfl, 0, 14);
 
+            # Check if the password contains at least one uppercase letter and one number. If not, generate a new password.
             if (!preg_match('/[A-Z]/', $pwd) && !preg_match('/[0-9]/', $pwd)) {
                 return generatePassword();
             }
