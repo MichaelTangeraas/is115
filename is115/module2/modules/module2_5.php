@@ -15,7 +15,7 @@
 
     <h1>Welcome to Module 2.5</h1>
 
-    <p>Below </p>
+    <p>Below we have a random password generator which continually generate a password with the lenght of 8 symbols and has a guaranteed uppercase letter and a number each time it's generated.</p>
 
     <hr />
 
