@@ -34,8 +34,12 @@
         echo "$i<br>";
         $sum += $i;
         ob_flush();
+        sleep(1);
     }
 
+    echo "<br> Drum roll...<br>";
+
+    ob_flush();
     sleep(2);
 
     echo "The count is complete! The sum of the count is: $sum";
