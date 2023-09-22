@@ -66,8 +66,11 @@
         <button type="submit">Submit</button>
     </form>
 
+    <!-- Tested something different with PHP and HTML structure -->
     <?php if (!empty($municipality)) { ?>
         <p><?php echo $municipality; ?> is located in <?php echo $county; ?> county.</p>
+    <?php } else { ?>
+        <p>Please select a municipality.</p>
     <?php } ?>
 
     <hr />

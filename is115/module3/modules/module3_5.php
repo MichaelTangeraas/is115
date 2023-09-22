@@ -14,7 +14,6 @@
     $num_rows = 8;
     $num_cols = 8;
 
-    // Initialize variables
     $totalGrains = 0;
     $grainsOnCurrentSquare = 1;
 
@@ -26,13 +25,12 @@
         for ($col = 1; $col <= $num_cols; $col++) {
             // Calculate the total grains and update current square's grain count
             $totalGrains += $grainsOnCurrentSquare;
-            $grainsArray[$row][$col] = $grainsOnCurrentSquare;
-
             // Double the grains for the next square
             $grainsOnCurrentSquare *= 2;
         }
     }
 
+    // NOTE: This is not working, most likely because of the size of the number and how number_format() works handles these large numbers.
     $totalGrains = $totalGrains - 1;
 
     // Convert total grains to weight in grams
@@ -50,6 +48,9 @@
     <p>In this assigment we are using a "for loop" to distribute and double grains of wheat on a chessboard.</p>
 
     <hr />
+
+    <h2>Grains of Wheat on a Chessboard</h2>
+    <p>See the module3_5.php file for the script that provides the results displayed underneath.</p>
 
     <h2>Results:</h2>
     <p>Total grains of wheat: <?php echo number_format($totalGrains); ?></p>
