@@ -27,12 +27,12 @@
 
     <hr />
 
-    <h2>Module</h2>
+    <h2>Module 4.4 - Job listings and multidimensional Arrays </h2>
     <p><a href="../module4/modules/module4_4.php">Click here to go to Module 4.4</a></p>
 
     <hr />
 
-    <h2>Module</h2>
+    <h2>Module 4.5 - Contact form service</h2>
     <p><a href="../module4/modules/module4_5.php">Click here to go to Module 4.5</a></p>
 
     <!-- <h2>IS-115 Course Dashboard</h2>
