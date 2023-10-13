@@ -12,17 +12,17 @@
     <h1>Welcome to the Module 4 Dashboard</h1>
     <p>Below you will find hyperlinks to all five of the tasks assigned to <strong>Module 4</strong>.</p>
 
-    <h2>Module</h2>
+    <h2>Module 4.1 - Displaying content of an Array</h2>
     <p><a href="../module4/modules/module4_1.php">Click here to go to Module 4.1</a></p>
 
     <hr />
 
-    <h2>Module</h2>
+    <h2>Module 4.2 - Form registration of a user</h2>
     <p><a href="../module4/modules/module4_2.php">Click here to go to Module 4.2</a></p>
 
     <hr />
 
-    <h2>Module</h2>
+    <h2>Module 4.3 - Form updating of existing user</h2>
     <p><a href="../module4/modules/module4_3.php">Click here to go to Module 4.3</a></p>
 
     <hr />
