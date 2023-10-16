@@ -16,16 +16,16 @@
     <p>Below you will find a list of all the deliverables for this course</p>
 
     <h3>Module 1</h3>
-    <p><a href="/is115/module1/">Click here to go to module 1</a></p>
+    <p><a href="./is115/module1/">Click here to go to module 1</a></p>
 
     <h3>Module 2</h3>
-    <p><a href="/is115/module2/">Click here to go to module 2</a></p>
+    <p><a href="./is115/module2/">Click here to go to module 2</a></p>
 
     <h3>Module 3</h3>
-    <p><a href="/is115/module3/">Click here to go to module 3</a></p>
+    <p><a href="./is115/module3/">Click here to go to module 3</a></p>
 
     <h3>Module 4</h3>
-    <p><a href="/is115/module4/">Click here to go to module 4</a></p>
+    <p><a href="./is115/module4/">Click here to go to module 4</a></p>
 
 
 
