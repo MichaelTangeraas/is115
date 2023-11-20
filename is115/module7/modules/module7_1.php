@@ -115,6 +115,9 @@ try {
     // If there was an error with the SQL, output the error message! SHOULD NOT BE USED IN PRODUCTION!
     echo "Error: " . $e->getMessage();
 }
+
+// Use this to close the db connection!
+$conn = null;
 ?>
 
 <hr />
