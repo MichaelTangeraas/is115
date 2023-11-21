@@ -52,8 +52,7 @@ try {
 
 <h1>Module 7.4</h1>
 
-<p>In module 7.4,
-</p>
+<p>In module 7.4, we are updating the db for module 7.1 by only displaying the current and upcoming appointments.</p>
 
 <hr />
 
