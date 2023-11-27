@@ -36,6 +36,9 @@
     <h3>Module 7</h3>
     <p><a href="./is115/module7/">Click here to go to module 7</a></p>
 
+    <h3>Module 8</h3>
+    <p><a href="./is115/module8/">Click here to go to module 8</a></p>
+
 
 
 

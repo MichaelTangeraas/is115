@@ -1,0 +1,78 @@
+/* Header with fixed position at the top of the viewport */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+/* Logo styling */
+.logo {
+    margin: 0;
+}
+
+/* Navbar styling */
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Navbar list item styling */
+.navbar li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/* Navbar link styling */
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+/* Navbar link hover styling */
+.navbar a:hover {
+    background-color: #555;
+}
+
+/* Center positioning */
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Footer styling with fixed position at the bottom of the viewport */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Footer link styling */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Footer link hover styling */
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Body styling to match the height of the header */
+body {
+    margin-top: 50px;
+}
