@@ -6,6 +6,24 @@ require_once('../include/db.inc.php');
 ?>
 
 <div class="center">
+    <?php
+    // Check if the flash message cookie is set
+    if (isset($_COOKIE['logout_message'])) {
+        // Display the flash message
+        echo "<b>" . $_COOKIE['logout_message'] . "</b><br>";
+
+        // Unset the flash message cookie
+        setcookie('logout_message', '', time() - 3600, "/");
+    }
+    // Check if the flash message cookie is set
+    if (isset($_COOKIE['register_message'])) {
+        // Display the flash message
+        echo "<b>" . $_COOKIE['register_message'] . "</b><br>";
+
+        // Unset the flash message cookie
+        setcookie('register_message', '', time() - 3600, "/");
+    }
+    ?>
     <h1>Login</h1>
     <p>Log in to your account</p>
     <form action="login.php" method="post">
@@ -40,14 +58,11 @@ require_once('../include/db.inc.php');
                 // Verify the password
                 if (password_verify($password, $user->password)) {
 
-                    // Correct password
-                    echo "Correct login credentials<br>";
-
-                    // // Start a new session
-                    // session_start();
-
                     // Store user ID in session
                     $_SESSION['userID'] = $user->userID;
+
+                    // Set a cookie with the flash message
+                    setcookie('login_message', 'You successfully logged in', time() + 3600, "/");
 
                     // Redirect to index.php which contains content based on role
                     header('location: index.php');

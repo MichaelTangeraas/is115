@@ -15,6 +15,15 @@ if (isset($_SESSION['userID']) && !empty($_SESSION['userID'])) {
     // Include the header, booking system template, and footer files
     include("../include/header.inc.php");
 
+    // Check if the flash message cookie is set
+    if (isset($_COOKIE['login_message'])) {
+        // Display the flash message
+        echo "<b>" . $_COOKIE['login_message'] . "</b><br>";
+
+        // Unset the flash message cookie
+        setcookie('login_message', '', time() - 3600, "/");
+    }
+
     if ($user->role == "student") {
         include("../templates/login_success_student.php");
     } else if ($user->role == "la") {

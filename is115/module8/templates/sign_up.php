@@ -69,9 +69,10 @@ require_once('../classes/inputvalidator.php');
             if (isset($fname) && isset($lname) && isset($email) && isset($password) && !$inputError) {
                 $insert = new Database($pdo);
                 $insert->insertToDB($fname, $lname, $email, $password);
-                echo "<br>User successfully created!<br>";
+                // Set a cookie with the flash message
+                setcookie('register_message', 'Your account has been successfully registered.', time() + 3600, "/");
                 // Redirect the user to login.php
-                // header('location:login.php');
+                header('location:login.php');
             }
         } else {
             // Print a message if the fields are empty and redirect the user to the registration page
