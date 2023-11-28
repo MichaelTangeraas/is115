@@ -43,14 +43,18 @@ require_once('../include/db.inc.php');
                     // Correct password
                     echo "Correct login credentials<br>";
 
-                    // Start a new session
-                    session_start();
+                    // // Start a new session
+                    // session_start();
 
                     // Store user ID in session
                     $_SESSION['userID'] = $user->userID;
 
-                    // Redirect to index.php
+                    // Redirect to index.php which contains content based on role
                     header('location: index.php');
+
+                    // Alternative way to redirect with two specific protected pages.
+                    // $_SESSION['role'] = $user->role;
+                    // header('location: login_router.php');
                 } else {
 
                     // Incorrect password
