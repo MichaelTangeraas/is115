@@ -3,7 +3,7 @@
 session_start();
 
 // Check if the user is logged in
-if (isset($_SESSION['userID']) && !empty($_SESSION['userID'] && isset($_SESSION['role']) && !empty($_SESSION['role'])) && $_SESSION['role'] == "la") {
+if (isset($_SESSION['userID']) && !empty($_SESSION['userID']) && isset($_SESSION['role']) && !empty($_SESSION['role']) && $_SESSION['role'] == "la") {
 
     include_once('../include/db.inc.php');
     include_once('../classes/database.php');
