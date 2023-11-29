@@ -65,11 +65,11 @@ require_once('../include/db.inc.php');
                     setcookie('login_message', 'You successfully logged in', time() + 3600, "/");
 
                     // Redirect to index.php which contains content based on role
-                    header('location: index.php');
+                    // header('location: index.php');
 
                     // Alternative way to redirect with two specific protected pages.
-                    // $_SESSION['role'] = $user->role;
-                    // header('location: login_router.php');
+                    $_SESSION['role'] = $user->role;
+                    header('location: login_router.php');
                 } else {
 
                     // Incorrect password
